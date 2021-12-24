@@ -19,18 +19,14 @@
   line-height: 22px;
 }
 
-.table tr:last-child {
-  border: none;
-  border-top: #000;
-  border: dotted 2px;
-
-}
-
 .table th,td {
   padding: 10px;
   border: 1px #dedede solid;
-}
 
+}
+.table tbody tr:last-child {
+  border-top: dashed 2px #000;
+}
 
 .table tr:nth-child(even) {
   background-color: #ecf1f2;
