@@ -3,15 +3,37 @@
 .table {
   table-layout: fixed;
   width: 100%;
-  border: #dedede;
 }
 
-.th {
-  font: white;
+.table th {
+  color: white;
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
 }
 
+.table td {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.table tr:last-child {
+  border: none;
+  border-top: #000;
+  border: dotted 2px;
+
+}
+
+.table th,td {
+  padding: 10px;
+  border: 1px #dedede solid;
+}
+
+
+.table tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
