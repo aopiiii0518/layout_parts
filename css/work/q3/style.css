@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+.parent-box {
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  margin: auto;
+  position: relative;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #ffefd3;
+  z-index: 100;
+  margin: auto;
+}
+
+.box-8 {
+  width: 100px;
+  height: 100px;
+  background-color: #de70cf;
+  z-index: 90;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #7084de;
+}
 
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
