@@ -1,10 +1,17 @@
 @charset "UTF-8";
 
-/* .q4_blue {
-  text-align: center;
-  margin:0 auto
-} */
 
+.is-text-aligin {
+  text-align: center;
+  display: ;
+}
+
+.is-margin {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* tableのボックス↓ */
 .parent {
   display: table;
   text-align: center;
@@ -18,13 +25,37 @@
 .is-table {
   display: inline-block;
 }
+/* tableのボックス↑ */
 
 .is-flex {
   display: flex;
   align-items: center;
+  justify-content:center;
+  text-align: center;
 }
 
-.
+/* position固定可変のボックス↓ */
+.relative {
+  position: relative;
+}
+
+.is-fixed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.is-variable {
+  position: absolute;
+  transform: translate(50px, 300%);
+  text-align: center;
+}
+/* position固定可変のボックス↑ */
+
 
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
