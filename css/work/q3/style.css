@@ -12,6 +12,7 @@
   width: 100px;
   height: 100px;
   text-align: center;
+  line-height: 100px;
 }
 
 .box-1 {
@@ -20,7 +21,6 @@
   left: 200px;
   position: absolute;
   z-index: 10;
-  /* line-height: 100; */
 }
 
 .box-2 {
@@ -37,7 +37,6 @@
   left: 360px;
   position: absolute;
   z-index: 30;
-  /* line-height: 100; */
 }
 
 .box-4 {
@@ -46,7 +45,6 @@
   left: 280px;
   position: absolute;
   z-index: 40;
-  /* line-height: 100; */
 }
 
 .box-5 {
@@ -55,7 +53,6 @@
   left: 200px;
   position: absolute;
   z-index: 50;
-  /* line-height: 100; */
 }
 
 .box-6 {
@@ -64,7 +61,6 @@
   left: 120px;
   position: absolute;
   z-index: 60;
-  /* line-height: 100; */
 }
 
 .box-7 {
@@ -73,7 +69,6 @@
   left: 40px;
   position: absolute;
   z-index: 70;
-  /* line-height: 100; */
 }
 
 .box-8 {
