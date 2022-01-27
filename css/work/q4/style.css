@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
+.is-text {
+  text-align: center;
+}
 
 .is-text-aligin {
-  text-align: center;
-  display: ;
+  display: inline-block;
 }
 
 .is-margin {
   margin: 0 auto;
-  text-align: center;
 }
 
 /* tableのボックス↓ */
 .parent {
   display: table;
-  text-align: center;
 }
 
 .child {
@@ -31,7 +31,6 @@
   display: flex;
   align-items: center;
   justify-content:center;
-  text-align: center;
 }
 
 /* position固定可変のボックス↓ */
@@ -46,13 +45,13 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  text-align: center;
 }
 
 .is-variable {
   position: absolute;
-  transform: translate(50px, 300%);
-  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 /* position固定可変のボックス↑ */
 
