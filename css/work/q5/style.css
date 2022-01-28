@@ -1,5 +1,54 @@
 @charset "UTF-8";
 
+.Sentence {
+  width: 400px;
+}
 
+.is-float-left {
+  float: left;
+}
+
+.is-float-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.parent {
+  display: table;
+}
+
+.child {
+  display: table-cell;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.left {
+  margin-left: 0px;
+}
+
+.right {
+  margin-left: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.calc {
+  margin-left: 25px;
+  width: calc((100% - 50px ) / 3);
+}
+
+.calc:first-child {
+  margin-left: 0;
+}
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
