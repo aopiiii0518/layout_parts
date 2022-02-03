@@ -56,5 +56,32 @@
 }
 
 
+.q6-key-visual {
+  overflow: hidden;
+}
+
+.q6-key-visual-text {
+  padding: 80px 0;
+  width: 960px;
+}
+
+.q6-key-visual p {
+  font-size: 200px;
+}
+
+.q6-key-visual-text p {
+  animation: loop 10s linear infinite;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
