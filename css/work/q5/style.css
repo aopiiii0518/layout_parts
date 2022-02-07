@@ -43,14 +43,7 @@
 
 .flex {
   display: flex;
-}
-
-.q5-flex {
-  margin-left: 60px;
-}
-
-.q5-flex:first-child {
-  margin: 0;
+  justify-content:space-between
 }
 
 .calc {
