@@ -18,22 +18,20 @@
 
 .q7-balloon-text::before {
   content: "";
-  border-top: 30px solid transparent;
+  border: 30px solid transparent;
   border-right: 30px solid #222;
-  border-bottom: 30px solid transparent;
   position : absolute;
   bottom: 20px;
-  left: -30px;
+  left: -60px;
 }
 
 .q7-balloon-text::after {
   content: "";
-  border-top: 20px solid transparent;
+  border: 20px solid transparent;
   border-right: 20px solid #fff;
-  border-bottom: 20px solid transparent;
   position : absolute;
   bottom: 30px;
-  left: -20px;
+  left: -40px;
 }
 
 

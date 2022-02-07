@@ -6,6 +6,10 @@
   clear: both;
 }
 
+.q1_main {
+  margin-top: 50px;
+}
+
 .q1_box {
   float: left;
   margin-left: 30px;

@@ -1,15 +1,7 @@
 @charset "UTF-8";
 
-.Sentence {
+.q5_white {
   width: 400px;
-}
-
-.is-float-left {
-  float: left;
-}
-
-.is-float-right {
-  float: right;
 }
 
 .clearfix::after {
@@ -18,28 +10,47 @@
   clear: both;
 }
 
+.is-float {
+  float: left;
+  margin-left: 60px;
+}
+
+.is-float:first-child {
+  margin: 0;
+}
+
 .parent {
   display: table;
 }
 
 .child {
   display: table-cell;
+  padding-left: 60px;
+}
+
+.child:first-child {
+  padding: 0;
 }
 
 .inline-block {
   display: inline-block;
-}
-
-.left {
-  margin-left: 0px;
-}
-
-.right {
   margin-left: 60px;
+}
+
+.inline-block:first-child {
+  margin: 0;
 }
 
 .flex {
   display: flex;
+}
+
+.q5-flex {
+  margin-left: 60px;
+}
+
+.q5-flex:first-child {
+  margin: 0;
 }
 
 .calc {
